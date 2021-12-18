@@ -1,0 +1,542 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #0b8be0;
+}
+        
+        
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 10vh;
+    width:100%;
+    flex-wrap: wrap;
+  }
+/*
+.navbar{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width:100%;
+    flex-wrap: wrap;
+    top: 0%;
+    position: fixed;
+    background-color: skyblue;
+}*/
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    width:120px;
+    height:70px;
+    margin-left: 50px;
+}
+.navbar li a:hover{
+    color:skyblue;
+    text-decoration:underline;
+}
+.navbar li{
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+
+}
+.navbar li a{
+    text-decoration: none;
+    color:white;
+    font-size:35px ;
+    font-family: 'Vollkorn', serif;
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.logosection {
+    width: 100%;
+    height: 90vh;
+    background-color:#d5f3fb;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    flex-direction: column; /*/////VARIANTAAA 1 /////*/ 
+  }
+.logosection img{
+    height: 300px;
+    width: fit-content;
+    display: flex;
+    justify-content:flex-end ;
+}  
+.home-title {
+    margin-bottom: 20px; /*////SI TE JOCI CU MARGIN SI PADDDING ////*/
+    font-family: "Harlow Solid";
+    font-size: 80px;
+    color: black;
+    
+    padding-left: 5px;
+    padding-right: 5px;
+  }   
+.plonline{
+    border: 4px solid black;
+    color: black;
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    margin-bottom: 60px;
+    background-image: url(images/butin.jpg);
+}
+.buton{
+      padding-bottom: 10px;
+      padding-top:10px;
+      font-weight: bolder;
+      align-content: center;    
+  }
+.buton:hover{
+    
+    color: white;
+    
+    
+}
+.btn{
+    text-decoration: none;
+}
+.btn h1{
+    color: black;
+    text-decoration: none;
+}
+  .cards{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow:visible;
+    background-image: url(images/cardbackground.jpg);
+    
+  }
+  .cards section{
+    width:600px;
+    height: 600px;
+    background-color:yellow;
+    border-radius: 15px;
+    border: 10px solid black;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.cards section h2{
+    font-family: "Harlow Solid";
+    font-size: 60px;
+    margin-bottom: 20px;
+
+}
+.cards section h3{
+    font-size: 50px;
+    font-family: 'Vollkorn', serif;
+
+}
+.cards section p{
+    color: black;
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.cards section li{
+    color: black;
+    font-family: 'Vollkorn', serif;
+    font-size: 40px;
+}
+.buy-online-ul li a:hover{
+    color:cornflowerblue;
+    text-decoration:wavy;
+}
+.buy-online-ul li{
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.buy-online-ul li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size:40px ;
+    font-family: 'Vollkorn', serif;
+}
+.buy-locally-ul li a:hover{
+    color:cornflowerblue;
+    text-decoration:wavy;
+}
+.buy-locally-ul li{
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.buy-locally-ul li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size:40px ;
+    font-family: 'Vollkorn', serif;
+}
+.sec{
+    width: 100%;
+    height: fit-content;
+    background-image: url(images/info\ background.jpg);
+    color: white;
+    font-family: "Harlow Solid";
+    font-size: 40px;
+    
+}
+.title{
+    text-decoration: underline;
+    margin-left: 30px;
+}
+.practical-info-ul{
+    background-color: #3677b4;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 15px solid white;
+    border-radius: 20px;
+   margin-top: 40px;
+ 
+   
+}
+.practical-info-ul h1{
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-family: 'Vollkorn', serif;
+    padding-left: 15px;
+}
+.practical-info-ul img{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.practical-info-ul li{
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Vollkorn', serif;
+}
+.practical-info-ul p{
+    text-decoration: none;
+    color:white;
+    font-size:35px ;
+    font-family: 'Vollkorn', serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.gallery{
+    background-color:rgb(111, 143, 74);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.gallery h1{
+    font-family:"Harlow Solid";
+    color: white;
+    font-size: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: underline;
+
+}
+.gallery section a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.gallery section img{
+    width:300px;
+    height: 200px;
+    box-sizing: border-box;
+    max-width: 300px;
+    border: 4px solid black;
+    border-radius: 6px;
+}
+.gallery section{
+    font-family: 'Vollkorn', serif;
+    width:300px;
+    height: 300px;
+    background-color:white;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 10px solid white; 
+}
+.gallery section:hover{
+    background-color: white ;
+    text-decoration: none;
+}
+.gallery section a:hover{
+    color: rgb(111, 143, 74);
+}
+
+.vers{
+    background-color:rgb(214, 199, 113);
+    width: 100%;
+    height: fit-content;  
+}
+.vers h1{
+    
+    text-decoration: underline;
+    margin-left: 30px;
+    font-family: "Harlow Solid";
+    font-size: 70px;
+    color: black;
+}
+.vers section a{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+.vers section img{
+    width:200px;
+    height: 200px;
+    box-sizing: border-box;
+    max-width: 300px;
+    float: left;
+    border-right: 10px solid white;
+}
+.vers section{
+    font-family: 'Vollkorn', serif;
+    width:1300px;
+    height: 200px;
+    background-color:rgb(19, 105, 155);
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 40px;
+    border: 10px solid white;
+    border-radius: 5px;
+}
+
+.vers section a:hover{
+    color: black;
+    text-decoration: solid;
+}
+.hist{
+    width: 100%;
+    height: fit-content;
+    background-color:#f1f6c6;
+    color: black;
+    font-family: "Harlow Solid";
+    font-size: 40px;
+    
+}
+.hist title{
+    padding-top: 100px;
+    text-decoration: underline;
+    margin-left: 30px;
+    
+}
+.paragr{
+    width: 60%;
+    color: white;
+    background-color: #3677b4;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 10px solid black;
+    border-radius: 10px;
+    font-family: 'Vollkorn', serif;
+}
+.hist a{
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: none;
+    border: 5px solid white;
+    border-radius: 5px;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.hist a:hover{
+    background-color: white;
+    color:#3677b4;
+}
+.suggest{
+    background-color: #f4defc;
+    width: 100%;
+    height: fit-content;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sqrs{
+    background-color: #f4defc;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.suggest h1{
+    text-decoration: underline;
+    font-family: "Harlow Solid";
+    font-size: 70px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.squares{
+    width:400px;
+    height: 200px;
+    margin-top: 100px;
+    padding-right: 20px;
+    background: rgba(228, 228, 172, 0.993);
+    border: 10px solid skyblue;
+    margin-bottom: 20px;
+}
+.squares img{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    max-width: 300px;
+    float: left;
+    border-right: 10px solid skyblue;
+}
+.squares a{
+    font-size: 38px;
+    font-family: 'Kalam', cursive;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+.squares a:hover{
+    color: white;
+    text-decoration:underline;
+
+}
+.squares p{
+    font-size: 15px;
+    font-family: 'Kalam';
+}
+ footer {
+    width: 100%;
+    
+    text-align: center;
+    background-color: DarkSalmon;
+    color: white;
+    font-family: 'kalam', cursive;
+    font-size: 25px;
+    position: absolute;
+    
+  }
+  footer a{
+      text-decoration: none;
+      color: white;
+  }
+  footer a:hover{
+      color: black;
+      text-decoration: underline;
+  }
+  .elements-ul{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+  }
+  .elements-ul li{
+        font-family: 'Vollkorn', serif;
+        font-size: 50px;
+        color: white;
+        list-style: none;
+        margin-top: 15px;
+        margin-bottom: 20px;
+
+  }
+  .elements-ul a{
+      text-decoration: none;
+      color: white;
+  }
+  .elements-ul a:hover{
+      text-decoration: underline;
+      color:skyblue ;
+      
+  }
+
+  @media only screen and (max-width:768px){
+    .first-nav-container{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        align-items: center; 
+        
+      }
+    .second-nav-container{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        align-items: center;
+    }
+      .hamburger-menu div{
+        background-color: #1B1C1E;
+        margin: 6px 20px;
+        border-radius: 20px;
+      }
+      .line {
+      height: 10px;
+      width: 50px;
+      }
+      .navbar{
+          display: none;
+          
+      }
+      header{
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+        
+      }
+
+    .logosection img{
+        display: none;
+    }
+    .logosection{
+        background-image: url(images/mobilebackgr.jpg) ;
+        display: flex;
+        
+        align-content: center;
+        align-items: center;
+    }
+    .vers section{
+        height: fit-content;
+        width: fit-content;
+    }
+
+  }
+
+  @media only screen and (min-width:768px){
+      .first-nav-container{
+          display: none;
+      }
+  }
